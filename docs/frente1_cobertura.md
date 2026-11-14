@@ -53,7 +53,7 @@ departamentos bonaerenses incluir (la provincia tiene 103) y esa lista no está 
 - Sin ceros ni huecos de rinde en la ventana. Rinde medio 2000/01 a 2024/25: soja 2257 kg/ha, maíz 5734 kg/ha.
 - La soja de la provincia empieza en 1973/74; no afecta a la ventana de trabajo.
 - 2025/26: rinde publicado para los 16 departamentos en soja y en maíz.
-- Los códigos INDEC no están en el MAGyP: hay que tomarlos de los límites del IGN.
+- Los códigos INDEC no vienen en el MAGyP: se cruzan por nombre con los oficiales de la API Georef (datos.gob.ar); ver `data/processed/cruce_departamentos.csv`.
 
 ## Para tener en cuenta en todas las regiones
 
@@ -68,5 +68,5 @@ departamentos bonaerenses incluir (la provincia tiene 103) y esa lista no está 
 - [ ] Confirmar región: Santa Fe, o Santa Fe + Entre Ríos.
 - [ ] Tratamiento del maíz 2008/09 de los cinco departamentos con pérdida total.
 - [ ] Confirmar con Juan si su pipeline de NDVI y clima corre para los 16 departamentos de Entre Ríos.
-- [ ] Códigos INDEC de Entre Ríos desde el IGN.
+- [x] Códigos INDEC de Entre Ríos (cruce hecho, tarea 1.2).
 - [ ] Verificar la licencia del dataset (el README del frente 4 cita CC BY 4.0; el portal no la muestra).
